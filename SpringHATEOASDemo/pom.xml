@@ -8,11 +8,11 @@
         <version>2.6.7</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.shinmh</groupId>
-    <artifactId>TemplateEngineProject</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>SpringHATEOASDemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>TemplateEngineProject</name>
-    <description>TemplateEngineProject</description>
+    <name>SpringHATEOASDemo</name>
+    <description>SpringHATEOASDemo</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -25,23 +25,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>htmlunit-driver</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>net.sourceforge.htmlunit</groupId>
-            <artifactId>htmlunit</artifactId>
             <scope>test</scope>
         </dependency>
 
